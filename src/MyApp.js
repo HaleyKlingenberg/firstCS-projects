@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Table from './Table'
 function MyApp() {
-const characters = [
+const [characters, setCharacters] = useState([
     {
     name: 'Charlie',
     job: 'Janitor',
@@ -18,7 +18,7 @@ const characters = [
     name: 'Dennis',
     job: 'Bartender',
     },
-    ];
+    ]);
 
 
 return (
